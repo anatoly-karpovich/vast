@@ -1,0 +1,36 @@
+<VAST version="3.0">
+  <Ad id="1003">
+    <InLine>
+      <AdSystem version="1.0">ExampleAdSystem</AdSystem>
+      <AdTitle>Vertical 9:16 creative Ad</AdTitle>
+      <Impression>
+        <![CDATA[ https://tracking.example.com/impression ]]>
+      </Impression>
+      <Creatives>
+        <Creative id="creative-1003" sequence="1">
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[ https://tracking.example.com/start ]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[ https://tracking.example.com/complete ]]>
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[ https://example.com ]]>
+              </ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="mf-1004" delivery="progressive" type="video/mp4" width="1080" height="1920" bitrate="11000">
+                <![CDATA[ https://samplelib.com/vertical/sample-vertical-15s.mp4 ]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
